@@ -1,0 +1,16 @@
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/tasks.c
+intelligentenvironmentmonitoringsystem\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+intelligentenvironmentmonitoringsystem\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+intelligentenvironmentmonitoringsystem\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stddef.h
+intelligentenvironmentmonitoringsystem\tasks.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3/portmacro.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h
+intelligentenvironmentmonitoringsystem\tasks.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/stack_macros.h

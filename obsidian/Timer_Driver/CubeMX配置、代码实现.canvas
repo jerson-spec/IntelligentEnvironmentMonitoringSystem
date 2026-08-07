@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"d53c38e6fcb5303a","type":"file","file":"DHT11_Driver/png/CubeMx配置_时钟配置_配置时钟频率72MHz.png","x":-660,"y":167,"width":400,"height":183},
+		{"id":"3b40c1b8a00e612c","type":"text","text":"# driver_timer.c 代码实现（延迟（us、ms）、获得系统时间（ns））\n```cpp\n#include \"stm32f10x.h\"                  // Device header\n#include \"driver_timer.h\"\n#include \"stm32f1xx_hal_conf.h\"\n\n/****************************************************************************\n* 概述：定义三个函数：延迟（us级）、延迟（ms级）、获得系统时间（ns级）\n* ---------------------------------------------------------------------------\n* 必要性：虽然HAL库有自带的HAL_GetTick()-获得毫秒时间函数、HAL_Delay(...)-\n*   延迟（ms级），但也能看出来，他只能停留在ms级，对于高精度us、ns就不行了。\n* ---------------------------------------------------------------------------\n* 实现:我们是这样实现的，先CubeMx配置一个TIM1定时器，配置部分只需要给他配个\n*   内部时钟就成了，然后设置PSC:71,ARR:999，这样定时就是1ms，然后计数器CNT占\n*   ARR之比就是更细的划分，更小的ms。（韦东山因为资源有限这一块没有单独拉一个\n*   计时器，是复用的HAL库使用的TIM4定时器，这样也行但定时易被干扰，详情见豆。）\n*****************************************************************************/\n\nvoid Delay_us(int us)\n{\n\t/*定时器句柄转个变量存一下*/\n\textern TIM_HandleTypeDef htim1;\n\tTIM_HandleTypeDef *hTimhandle=&htim1;\n\t\n\t/*定义变量*/\n\tuint32_t ticks;\n\tuint32_t told,tnew,tcnt=0;\n\tticks=us*(__HAL_TIM_GET_AUTORELOAD(hTimhandle))/1000;\n\t\n\t/*处理逻辑*/\n\ttold=__HAL_TIM_GET_COUNTER(hTimhandle);\n\twhile(1)\n\t{\n\t\ttnew=__HAL_TIM_GET_COUNTER(hTimhandle);\n\t\tif(told!=tnew)\n\t\t{\n\t\t\tif(tnew>told)\n\t\t\t\ttcnt+=tnew-told;\n\t\t\telse \n\t\t\t\ttcnt+=tnew-told+__HAL_TIM_GET_AUTORELOAD(hTimhandle);\n\t\t}\t\n\t\t/*下面这一行差点忘记加了*/\n\t\ttold=tnew;\t\t\t\t\n\t\tif(tcnt>=ticks) \n\t\t\tbreak;\n\t} \n}\n\nvoid Delay_ms(int ms)\n{\n\tint i;\n\tfor(i=0;i<ms;i++)\n\t{\n\t\tDelay_us(1000);\n\t}\n}\n\nuint64_t GetSystemTimer_ns(void)\n{\n\textern TIM_HandleTypeDef htim1;\n\tTIM_HandleTypeDef *hTimhandle=&htim1;\n\t\n\t/*一开始用uint32_t，太小了，得用uint64_t */\n\tuint64_t ns;\n\tns=HAL_GetTick()*1000000;\n\t\n\tns+=__HAL_TIM_GET_COUNTER(hTimhandle)*1000000/__HAL_TIM_GET_AUTORELOAD(hTimhandle);\n\t\n\treturn ns;\n}\n```\n","x":480,"y":-360,"width":1369,"height":1770},
+		{"id":"db04351f7b7bb9ea","type":"file","file":"DHT11_Driver/png/CubeMx配置_GPIO.png","x":-670,"y":-352,"width":400,"height":211},
+		{"id":"9f732b03392ec20b","type":"file","file":"DHT11_Driver/png/CubeMx配置_时钟配置_选择外部石英晶体振荡器HSE.png","x":-660,"y":-77,"width":400,"height":179},
+		{"id":"4b33413ca8b43258","type":"file","file":"DHT11_Driver/png/CubeMX配置_配置调试方式、HAL库使用时钟.png","x":-660,"y":411,"width":400,"height":176},
+		{"id":"2ed184255003f6ae","type":"text","text":"FreeRtos要使用SysTick的，HAL库再用这个的话会冲突，所以配一个定时器TIM4给HAL库提供时钟","x":-670,"y":640,"width":420,"height":56},
+		{"id":"e9d1a9e7de8f0625","type":"file","file":"DHT11_Driver/png/配置TIM1定时器_0.png","x":-120,"y":-352,"width":399,"height":307},
+		{"id":"390d8ff8afb42365","type":"file","file":"DHT11_Driver/png/配置TIM1定时器_1.png","x":-121,"y":13,"width":400,"height":305},
+		{"id":"6bd8fc6560835fa1","type":"text","text":"# 参照韦东山项目地址:\n## \"D:\\Desktop\\.hidden\\hide\\freertosProject\\30_My_suspend_all_dht11\"\n\n","x":480,"y":-560,"width":881,"height":159}
+	],
+	"edges":[
+		{"id":"7b430d58a9396173","fromNode":"4b33413ca8b43258","fromSide":"bottom","toNode":"2ed184255003f6ae","toSide":"top"}
+	]
+}

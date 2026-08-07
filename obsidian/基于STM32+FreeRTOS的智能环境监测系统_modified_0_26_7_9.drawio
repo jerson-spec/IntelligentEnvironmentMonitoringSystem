@@ -1,0 +1,364 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="l_SfLSa9eKqaPEQARBfN">
+    <mxGraphModel dx="2553" dy="2726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YK8GVFdTA8urgLPSTnze-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;pre class=&quot;shiki github-light shiki-code-block&quot; tabindex=&quot;0&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235); font-family: baselGroteskMono, &amp;quot;baselGroteskMono Fallback&amp;quot;, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-feature-settings: normal; font-variation-settings: normal; margin: 0px; white-space: pre-wrap; border-radius: 0px; background-color: rgb(255, 255, 255); padding: 0.75rem 1rem; text-align: start; color: rgb(36, 41, 46);&quot;&gt;&lt;code class=&quot;whitespace-pre-wrap break-words&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235); font-family: baselGroteskMono, &amp;quot;baselGroteskMono Fallback&amp;quot;, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-feature-settings: normal; font-variation-settings: normal; overflow-wrap: break-word; word-break: break-word;&quot;&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;三级报警机制：&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;一级：温度 &amp;lt;= 28，湿度 &amp;lt;= 85；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;二级：28 &amp;lt; 温度 &amp;lt;= 32，或85 &amp;lt; 湿度 &amp;lt;= 95；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;三级：温度 &amp;gt; 32，或湿度 &amp;gt; 95；&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;硬件处理：&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(36, 41, 46), rgb(199, 203, 207));&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;一级：&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;LED灯不亮、蜂鸣器不响、三色灯显示绿色；&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(36, 41, 46), rgb(199, 203, 207));&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;二级：&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;LED灯闪烁、蜂鸣器间断鸣叫、三色灯显示黄色、串口发送“Warning！”字符串；&lt;br&gt;&lt;/b&gt;&lt;b style=&quot;background-color: light-dark(rgb(255, 255, 255), rgb(18, 18, 18)); color: light-dark(rgb(36, 41, 46), rgb(199, 203, 207));&quot;&gt;&lt;span class=&quot;line&quot; style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;&lt;span style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235);&quot;&gt;三级：&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;&lt;b style=&quot;&quot;&gt;LED灯常亮、蜂鸣器常响、三色灯显示红色、串口发送“Danger！”字符串；&lt;/b&gt;&lt;/font&gt;&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="432.5" width="432.5" x="530" y="27.5" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-29" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;采集数据&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1181" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-34" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;OLED显示&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1181" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-35" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;串口发送&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1181" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-9" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="YK8GVFdTA8urgLPSTnze-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1304" y="860" />
+            </Array>
+            <mxPoint x="1374" y="970" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-23" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-24" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;预警&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="119" x="1185" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-92" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-94" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;LED灯驱动&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1464" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-97" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-99" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;蜂鸣器驱动&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1455" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-100" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-102" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;三色灯驱动&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1455" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-26" parent="1" style="whiteSpace=wrap;html=1;align=left;horizontal=1;verticalAlign=middle;labelPosition=center;verticalLabelPosition=middle;textDirection=ltr;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;优先级：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;高（26）：采集数据；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;中（25）：三个硬件驱动&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;低（24）：OLED显示、串口发送&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="280" x="530" y="-130" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-61" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-62" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;color: rgb(46, 43, 41); font-family: Inter, &amp;quot;Inter Fallback&amp;quot;, ui-sans-serif, system-ui, sans-serif; text-align: start; background-color: rgb(240, 235, 229);&quot;&gt;&lt;font style=&quot;font-size: 23px;&quot;&gt;DHT11驱动&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1460" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-134" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-135" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-136" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;OLED驱动&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1460" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-141" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-143" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-133">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;串口驱动&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1460" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-169" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-170" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-171" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-172" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-173" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="860" />
+              <mxPoint x="1020" y="1585" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-12" connectable="0" parent="uZ5VLeZQNzZfvJCR0tYm-173" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=17;" value="后续再加" vertex="1">
+          <mxGeometry relative="1" x="0.8122" y="1" as="geometry">
+            <mxPoint x="-1" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-36" parent="1" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;div&gt;&lt;h3 style=&quot;--tw-border-spacing-x: 0; --tw-border-spacing-y: 0; --tw-translate-x: 0; --tw-translate-y: 0; --tw-rotate: 0; --tw-skew-x: 0; --tw-skew-y: 0; --tw-scale-x: 1; --tw-scale-y: 1; --tw-pan-x: ; --tw-pan-y: ; --tw-pinch-zoom: ; --tw-scroll-snap-strictness: proximity; --tw-gradient-from-position: ; --tw-gradient-via-position: ; --tw-gradient-to-position: ; --tw-ordinal: ; --tw-slashed-zero: ; --tw-numeric-figure: ; --tw-numeric-spacing: ; --tw-numeric-fraction: ; --tw-ring-inset: ; --tw-ring-offset-width: 0px; --tw-ring-offset-color: light-dark(#fff, #000000); --tw-ring-color: rgb(59 130 246/0.5); --tw-ring-offset-shadow: 0 0 #0000; --tw-ring-shadow: 0 0 #0000; --tw-shadow: 0 0 #0000; --tw-shadow-colored: 0 0 #0000; --tw-blur: ; --tw-brightness: ; --tw-contrast: ; --tw-grayscale: ; --tw-hue-rotate: ; --tw-invert: ; --tw-saturate: ; --tw-sepia: ; --tw-drop-shadow: ; --tw-backdrop-blur: ; --tw-backdrop-brightness: ; --tw-backdrop-contrast: ; --tw-backdrop-grayscale: ; --tw-backdrop-hue-rotate: ; --tw-backdrop-invert: ; --tw-backdrop-opacity: ; --tw-backdrop-saturate: ; --tw-backdrop-sepia: ; --tw-contain-size: ; --tw-contain-layout: ; --tw-contain-paint: ; --tw-contain-style: ; box-sizing: border-box; border: 0px solid rgb(229, 231, 235); margin: 1.6em 0px 0.6em; font-family: monaSans, &amp;quot;monaSans Fallback&amp;quot;, ui-sans-serif, system-ui, sans-serif; letter-spacing: -0.025em; color: rgb(37, 37, 35); line-height: 1.6; background-color: rgb(252, 250, 248);&quot;&gt;&lt;font style=&quot;font-size: 30px;&quot;&gt;基于STM32+FreeRTOS的智能环境监测系统&lt;/font&gt;&lt;/h3&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;——实时读取DHT11数据，将读到的数据根据我们&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;的三级划分实现不同的逻辑，分别对LED、蜂鸣器、三色灯硬件进行操作，并将读到的数据实时显示到OLED，预警信息实时同步到串口发送到电脑&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="270" width="470" x="380" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;单总线&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1480" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-74" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YK8GVFdTA8urgLPSTnze-73" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;I2C&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1480" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-137" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;串口&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1480" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GPIO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1489" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GPIO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1480" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;GPIO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1480" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-47" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="YK8GVFdTA8urgLPSTnze-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;空闲任务&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1181" y="1555" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;串口打印各任务空闲栈大小或CPU占用率&lt;/font&gt;" vertex="1">
+          <mxGeometry height="150" width="130" x="1487.67" y="1510" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-140" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;串口&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="1517.67" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1654" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-66" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-67" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="YK8GVFdTA8urgLPSTnze-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-70" edge="1" parent="1" source="YK8GVFdTA8urgLPSTnze-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YK8GVFdTA8urgLPSTnze-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;任务一&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1654" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;循环里读取数据&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1997" y="-225" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;分发数据给各队列&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="170" x="1997" y="-155" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;阻塞（200ms）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="170" x="1997" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="YK8GVFdTA8urgLPSTnze-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;互斥量&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;（保护临界资源）&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="70" x="1560" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;互斥量&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;（保护临界资源）&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="70" x="1560" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-54" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;互斥量&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;（保护临界资源）&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="70" x="1597.67" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-144" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1690" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-145" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;创建队列B，并注册队列&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1690" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-146" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-72" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;读队列数据并显示&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1690" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-117" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-73" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1680" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-119" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-75" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;三种情况的硬件实现&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="1680" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-120" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-78" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1680" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-122" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-80" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;三种情况的硬件实现&lt;/span&gt;" vertex="1">
+          <mxGeometry height="91" width="220" x="1680" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-123" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-82" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1680" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-126" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-84" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;三种情况的硬件实现&lt;/span&gt;" vertex="1">
+          <mxGeometry height="90" width="220" x="1680" y="1400" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-91" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;任务二&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2330" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-130" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-106" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;阻塞（50ms）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-127" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;LED灯函数&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-128" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-112" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-112" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;蜂鸣器函数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-129" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-113" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-113" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;三色灯函数&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2120" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-131" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;硬件配置、初始化&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="220" x="1700" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;font-size: 23px;&quot;&gt;等待任务通知，判断通知值是多少，从而选择向串口发送什么字符串&lt;/span&gt;" vertex="1">
+          <mxGeometry height="120" width="220" x="1700" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-151" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-148">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-147" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;阻塞（50ms）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1770" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-150" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1980.0000000000005" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-148" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;任务三&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2170" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-10" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1990" y="480.2857142857142" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-149" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;任务四&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="2170" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-158" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="410" as="sourcePoint" />
+            <mxPoint x="1990" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-160" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="545" as="sourcePoint" />
+            <mxPoint x="1990" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-162" edge="1" parent="1" source="uZ5VLeZQNzZfvJCR0tYm-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-149">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uZ5VLeZQNzZfvJCR0tYm-161" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;阻塞（50ms）&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1754" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-4" edge="1" parent="1" source="o4edl-FowQo455tqoVJp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;创建队列A，并注册队列&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="150" x="2090" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-5" edge="1" parent="1" source="o4edl-FowQo455tqoVJp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="uZ5VLeZQNzZfvJCR0tYm-91">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-7" edge="1" parent="1" source="o4edl-FowQo455tqoVJp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="o4edl-FowQo455tqoVJp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;循环里读队列数据，根据数据情况实现级别划分&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="150" x="2090" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;若级别划分为二级或三级，则分别设置任务通知值为50、100&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="2311" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="o4edl-FowQo455tqoVJp-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;" value="&lt;font style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;修改说明：&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;font-size: 23px;&quot;&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/span&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;first-&amp;gt;modified_0：&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;26_7_9&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; line-height: 150%;&quot;&gt;1.三个硬件驱动不需要搞三个队列分别读队列判断级别操作硬件，只需要读一个队列，判断出级别之后再对三个硬件操作，这样：三个队列-&amp;gt;一个队列；&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; line-height: 150%;&quot;&gt;2. 串口也不需要一个独立的队列，他只需要判断出级别然后选择发送字符串就行，所以可以选择在三个硬件驱动，也就是报警那个任务里判断出级别之后设置一个信号量或者任务通知，然后在串口这个任务里接收信号量或任务通知然后处理发送字符串逻辑，但是我们要判断出是二级还是三级，所以选择任务通知可能更直接一点。这样：串口一个队列-&amp;gt;不创建队列、增加任务通知逻辑；&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; line-height: 150%;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px; line-height: 150%;&quot;&gt;3.硬件驱动这一块LED灯闪烁、蜂鸣器间断鸣叫可以由原来的亮/鸣叫-vTaskDelay(250)-灭/停止鸣叫的逻辑改成由软件定时器来实现，这样：增加软件定时器逻辑，这一块的实现交给定时器独立处理，&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;解除阻塞对任务进程的占用；&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="770" width="440" x="40" y="-110" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

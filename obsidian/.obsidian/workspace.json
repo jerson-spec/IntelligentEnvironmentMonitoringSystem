@@ -1,0 +1,242 @@
+{
+  "main": {
+    "id": "11fa329a1c4eaf13",
+    "type": "split",
+    "children": [
+      {
+        "id": "eea49e462ecb32f1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "56d3fcd968fd2b4a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Summary/引脚配置.png"
+              },
+              "icon": "lucide-image",
+              "title": "引脚配置"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f05696e773b7f698",
+    "type": "split",
+    "children": [
+      {
+        "id": "421aa3466245d4d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e76a5409c337ae85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "ff020452a649fb26",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "e84473bd880e21c1",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 264.5
+  },
+  "right": {
+    "id": "4be621ae645b4b71",
+    "type": "split",
+    "children": [
+      {
+        "id": "85612a9f5bd8c0d8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8f1a626732d8128",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "OLED_Driver/Architecture.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Architecture 的反向链接列表"
+            }
+          },
+          {
+            "id": "5ed4f6148489d902",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "OLED_Driver/Architecture.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Architecture 的出链列表"
+            }
+          },
+          {
+            "id": "4aa2c591f9bfeacc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "c31a62e26032d4a8",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "9e5d8d6637a85572",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "欢迎.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "欢迎 的大纲"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false
+    }
+  },
+  "active": "e76a5409c337ae85",
+  "lastOpenFiles": [
+    "Summary",
+    "Summary/FreeRtos配置.png",
+    "Q&S/问题解决：串口接收到多余字符.md",
+    "Q&S/问题解决：DHT11与OLED任务冲突.md",
+    "My_UART/思路介绍.md",
+    "Q&S",
+    "My_UART/png/My_UART代码实现.png",
+    "Pasted image 20260807145539.png",
+    "Pasted image 20260807145411.png",
+    "Pasted image 20260807145054.png",
+    "My_UART/png/CubeMX配置.png",
+    "My_UART/png",
+    "Summary/7_26为止总结.md",
+    "My_UART",
+    "Warning_Driver/主要也就是LED、Buzzer、color_led_Driver.md",
+    "Warning_Driver/png/蜂鸣器驱动函数.png",
+    "Warning_Driver/png/蜂鸣器PWM配置_CubeMX_0.png",
+    "未命名.md",
+    "Summary/引脚配置.png",
+    "Warning_Driver/png/7_26为止引脚配置情况.png",
+    "Summary/8_7为止总结.md",
+    "Timer_Driver/CubeMX配置、代码实现.canvas",
+    "Clippings",
+    "Clippings/十轴传感器原理解析.md",
+    "OLED_Driver/Architecture.canvas",
+    "OLED_Driver/Manual/1_SSD1306-Revision 1.1 (Charge Pump).pdf",
+    "Warning_Driver/png",
+    "Warning_Driver",
+    "yfceshi.md",
+    "DHT11_Driver/Article/DHT11温湿度传感器详解（STM32）_博客园.md",
+    "DHT11_Driver/Article/DHT11数据手册.pdf",
+    "DHT11_Driver/Article/DHT11数据手册.pdf.crdownload",
+    "DHT11_Driver/Thought/Architecture.canvas",
+    "OLED_Driver/Manual/1_SSD1306-Revision 1.1 (Charge Pump)_translation.pdf",
+    "DHT11_Driver/Thought/Code_WeiDonShan.md",
+    "DHT11_Driver/Thought/Diagram_cnblogs_CSDN.md",
+    "OLED_Driver/Architecture 1.canvas",
+    "未命名.canvas",
+    "基于STM32+FreeRTOS的智能环境监测系统.md",
+    "driver_timer代码实现（延迟（ms、us）、获得系统时间（ns））.md",
+    "Untitled.md",
+    "DHT11_Driver/Thought/未命名.md",
+    "DHT11_Driver/Thought/Architecture.md",
+    "DHT11_Driver/ThoughtProcess/Diagram_cnblogs_CSDN.md",
+    "DHT11_Driver/ThoughtProcess/Code_WeiDonShan.md",
+    "DHT11_Driver/ThoughtProcess/TimerSchematicDiagram_cnblogs_CSDN.md",
+    "DHT11_Driver/ThoughtProcess/Code_By_WeiDonShan.md",
+    "DHT11_Driver/ThoughtProcess/code_by_WeiDonShan.md",
+    "DHT11驱动/代码实现_设计思路_by韦东山.md",
+    "DHT11驱动/未命名.canvas",
+    "欢迎.md",
+    "Clippings/DHT11温湿度传感器详解（STM32）.md"
+  ]
+}
