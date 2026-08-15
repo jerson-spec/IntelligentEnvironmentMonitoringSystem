@@ -1,0 +1,20 @@
+# Keil MDK编译产物
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.bin
+MDK-ARM/**/*.map
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.d
+MDK-ARM/**/*.o
+Objects/
+Listings/
+
+# Keil其他杂项
+*.dep
+*.crf
+*.iex
+
+# Windows系统垃圾
+Thumbs.db
+.DS_Store
