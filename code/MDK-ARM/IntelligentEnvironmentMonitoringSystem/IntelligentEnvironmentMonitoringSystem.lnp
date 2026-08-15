@@ -40,6 +40,9 @@
 "intelligentenvironmentmonitoringsystem\driver_buzzer.o"
 "intelligentenvironmentmonitoringsystem\driver_color_led.o"
 "intelligentenvironmentmonitoringsystem\my_uart.o"
+"intelligentenvironmentmonitoringsystem\led_warning.o"
+"intelligentenvironmentmonitoringsystem\buzzer_warning.o"
+"intelligentenvironmentmonitoringsystem\colorled_warning.o"
 --strict --scatter "IntelligentEnvironmentMonitoringSystem\IntelligentEnvironmentMonitoringSystem.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

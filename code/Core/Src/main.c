@@ -27,8 +27,12 @@
 
 #include "Driver_OLED.h"
 #include "Driver_DHT11.h"
-#include "Warning.h"
+//#include "Warning.h"
 #include "My_UART.h"
+
+#include "LED_Warning.h"
+#include "Buzzer_Warning.h"
+#include "ColorLED_Warning.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -42,7 +46,12 @@
 //BaseType_t xOLEDTaskHandle;
 //BaseType_t xWarningTaskHandle;
 QueueHandle_t OLEDQueueHandle;
-QueueHandle_t WarnQueueHandle;
+
+//QueueHandle_t WarnQueueHandle;
+QueueHandle_t LED_WarnQueueHandle;
+QueueHandle_t Buzzer_WarnQueueHandle;
+QueueHandle_t ColorLED_WarnQueueHandle;
+
 TaskHandle_t UARTHandle;
 /* USER CODE END PD */
 
@@ -133,10 +142,22 @@ int main(void)
 	OLEDQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
 	RegisterQueue(OLEDQueueHandle);
 	
-	/*创建并注册Warning队列*/
-	WarnQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
-	RegisterQueue(WarnQueueHandle);
+//	/*创建并注册Warning队列*/
+//	WarnQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
+//	RegisterQueue(WarnQueueHandle);
+
+	/*创建并注册LED_Warning队列*/
+	LED_WarnQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
+	RegisterQueue(LED_WarnQueueHandle);
 	
+	/*创建并注册Buzzer_Warning队列*/
+	Buzzer_WarnQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
+	RegisterQueue(Buzzer_WarnQueueHandle);
+	
+	/*创建并注册ColorLED_Warning队列*/
+	ColorLED_WarnQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
+	RegisterQueue(ColorLED_WarnQueueHandle);
+
 	LED_OFF();
 	HAL_GPIO_WritePin(GPIOB,GPIO_PIN_3|GPIO_PIN_4|GPIO_PIN_5,GPIO_PIN_SET);
 	SetBuzzer_freq_duty(1000,1);
@@ -168,10 +189,14 @@ int main(void)
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */
-	xTaskCreate(DHT11Task,"DHT11TASK",128,NULL,osPriorityNormal+1,NULL);
+	xTaskCreate(DHT11Task,"DHT11TASK",128,NULL,osPriorityNormal+2,NULL);
 	xTaskCreate(OLEDTask,"OLEDTASK",128,NULL,osPriorityNormal,NULL);
-	xTaskCreate(WarningTask,"WarningTASK",128,NULL,osPriorityNormal,NULL);
+//	xTaskCreate(WarningTask,"WarningTASK",128,NULL,osPriorityNormal,NULL);
 	xTaskCreate(My_UARTTask,"My_UARTTask",128,NULL,osPriorityNormal,&UARTHandle);
+	
+	xTaskCreate(LED_WarningTask,"WarningTASK",128,NULL,osPriorityNormal+1,NULL);
+	xTaskCreate(Buzzer_WarningTask,"WarningTASK",128,NULL,osPriorityNormal+1,NULL);
+	xTaskCreate(ColorLED_WarningTask,"WarningTASK",128,NULL,osPriorityNormal+1,NULL);
 	
   /* USER CODE END RTOS_THREADS */
 

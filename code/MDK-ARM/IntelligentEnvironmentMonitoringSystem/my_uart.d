@@ -29,6 +29,7 @@ intelligentenvironmentmonitoringsystem\my_uart.o: ../Drivers/STM32F1xx_HAL_Drive
 intelligentenvironmentmonitoringsystem\my_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h
 intelligentenvironmentmonitoringsystem\my_uart.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h
 intelligentenvironmentmonitoringsystem\my_uart.o: ..\Project_Code\My_UART.h
+intelligentenvironmentmonitoringsystem\my_uart.o: ..\Project_Code\Driver_OLED.h
 intelligentenvironmentmonitoringsystem\my_uart.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os.h
 intelligentenvironmentmonitoringsystem\my_uart.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
 intelligentenvironmentmonitoringsystem\my_uart.o: ../Core/Inc/FreeRTOSConfig.h

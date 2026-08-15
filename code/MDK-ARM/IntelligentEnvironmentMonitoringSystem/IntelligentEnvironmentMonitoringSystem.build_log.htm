@@ -5,10 +5,10 @@
 <h2>Tool Versions:</h2>
 IDE-Version: μVision V5.24.2.0
 Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: ，1 Administrator, ，1, LIC=4ZLZX-HYX1L-YDAK5-GNFPA-BLK2N-13CAD
+License Information: ，1 Administrator, ，1, LIC=76F5U-S3L5B-SBZEJ-UKGNW-3ITF7-7A5RG
  
 Tool Versions:
-Toolchain:       MDK-ARM Professional  Version: 5.24.1
+Toolchain:       MDK-ARM Plus  Version: 5.24.1
 Toolchain Path:  D:\Keil5\ARM\ARMCC\Bin
 C Compiler:      Armcc.exe V5.06 update 5 (build 528)
 Assembler:       Armasm.exe V5.06 update 5 (build 528)
@@ -21,23 +21,36 @@ Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
 Dialog DLL:      TCM.DLL V1.32.0.0
  
 <h2>Project:</h2>
-D:\Desktop\.hidden\hide\STM32_FreeRTOS_Project\IntelligentEnvironmentMonitoringSystem\MDK-ARM\IntelligentEnvironmentMonitoringSystem.uvprojx
-Project File Date:  08/07/2026
+D:\Desktop\IntelligentEnvironmentMonitoringSystem\MDK-ARM\IntelligentEnvironmentMonitoringSystem.uvprojx
+Project File Date:  08/14/2026
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 5 (build 528)', folder: 'D:\Keil5\ARM\ARMCC\Bin'
 Build target 'IntelligentEnvironmentMonitoringSystem'
-compiling My_UART.c...
-..\Project_Code\My_UART.c(36): warning:  #167-D: argument of type "int *" is incompatible with parameter of type "uint32_t *"
-  			xTaskNotifyWait(~0,~0,&Value,
-ortMAX_DELAY);
-..\Project_Code\My_UART.c(50): warning:  #1-D: last line of file ends without a newline
-  }
-..\Project_Code\My_UART.c: 2 warnings, 0 errors
+compiling Driver_OLED.c...
+..\Project_Code\Driver_OLED.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\driver_timer.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\Driver_DHT11.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\Driver_OLED.c(113): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if(offset>63 || offset<0) return;
+..\Project_Code\Driver_OLED.c(138): warning:  #186-D: pointless comparison of unsigned integer with zero
+  	if(light>0xff || light<0) return;
+..\Project_Code\Driver_OLED.c: 5 warnings, 0 errors
+compiling Driver_DHT11.c...
+..\Project_Code\driver_timer.h(8): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\Driver_DHT11.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\Driver_OLED.h(15): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\Project_Code\Driver_DHT11.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=17592 RO-data=2408 RW-data=176 ZI-data=11328  
+Program Size: Code=17924 RO-data=2408 RW-data=184 ZI-data=13328  
 FromELF: creating hex file...
-"IntelligentEnvironmentMonitoringSystem\IntelligentEnvironmentMonitoringSystem.axf" - 0 Error(s), 2 Warning(s).
+"IntelligentEnvironmentMonitoringSystem\IntelligentEnvironmentMonitoringSystem.axf" - 0 Error(s), 8 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -60,7 +73,7 @@ Package Vendor: Keil
 <h2>Collection of Component Files used:</h2>
 
    * Component: ARM::CMSIS:CORE:5.0.1
-Build Time Elapsed:  00:00:04
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

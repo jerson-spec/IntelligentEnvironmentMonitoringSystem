@@ -1,6 +1,7 @@
 #include <stdint.h>
 #include "stm32f1xx_hal.h"
 #include "My_UART.h"
+#include "Driver_OLED.h"
 
 #include "cmsis_os.h"
 #include "FreeRTOS.h"                   // ARM.FreeRTOS::RTOS:Core
@@ -40,11 +41,19 @@ void My_UARTTask(void*params)
 		if(Value==Warn)
 		{
 			UART_TransNews(WarnNews);
+			vTaskDelay(500);
+			OLED_ShowString(8,0,"Warn!");
+			vTaskDelay(500);
+			OLED_ShowString(8,0,"     ");
 		}
 		else if(Value==Danger)
 		{
 			UART_TransNews(DangerNews);
+			vTaskDelay(500);
+			OLED_ShowString(8,0,"Danger!");
+			vTaskDelay(500);
+			OLED_ShowString(8,0,"       ");
 		}
-		vTaskDelay(1000);
+//		vTaskDelay(1000);
 	}	
 }

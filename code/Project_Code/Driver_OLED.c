@@ -9,7 +9,6 @@
 //#include "queue.h"
 #include "Driver_DHT11.h"
 
-//QueueHandle_t OLEDQueueHandle;
 extern QueueHandle_t OLEDQueueHandle;
 
 extern I2C_HandleTypeDef hi2c1;
@@ -241,25 +240,6 @@ void OLED_ShowChar(uint8_t x,uint8_t y,char content)
 	OLED_SendNDatas(&ascii_font[content][8],8);
 }
 
-//int OLED_ShowString(uint8_t x,uint8_t y,uint8_t* String)
-//{
-//	uint8_t *Str=String;
-//	int i=0;
-//	while(Str[i]!='0')
-//	{
-//		OLED_ShowChar(x++,y,Str[i]);
-//		
-//		/*加上下面的这个处理比较好，我没考虑到*/
-//		if(x>15)
-//		{
-//			x=0;
-//			y+=2;
-//		}			
-//		i++;		
-//	}
-//	return i;
-//}
-
 int OLED_ShowString(uint8_t x,uint8_t y,uint8_t* String)
 {
 	uint8_t *Str=String;
@@ -366,9 +346,6 @@ void OLED_Test(void)
 			Humi++;
 		}
 		
-//		OLED_ShowChar(15,0,'A');
-//		OLED_ShowString(0,2,"BCD");
-//		OLED_ShowDecimal(4,6,98765);
 		len_temp=OLED_ShowString(0,0,"Tem:");
 		OLED_ShowDecimal(len_temp,0,Tem);
 		OLED_ShowString(len_temp+2,0,"^");
@@ -388,48 +365,12 @@ void OLED_Test(void)
 	}
 }
 
-//void OLEDTask(void* params)
-//{
-//	int len_temp,len_humi;
-//	int temp,humi;
-//	int err;
-//	OLED_Init();
-//	OLED_Clear(); 	
-//	while(1)
-//	{	
-//		if(err==0)
-//		{
-//			len_temp=OLED_ShowString(0,0,"Tem:");
-//			OLED_ShowDecimal(len_temp,0,temp);
-//			OLED_ShowString(len_temp+2,0,"^");
-//			
-//			len_humi=OLED_ShowString(0,2,"Hum:");
-//			OLED_ShowDecimal(len_humi,2,humi);
-//			OLED_ShowString(len_humi+2,2,"%");	
-//		}
-//		else
-//		{
-//			OLED_ShowString(5,0,"err");
-////			DHT11_Init();
-//		}			
-//		vTaskDelay(2000);
-//	}
-//}
-
 void OLEDTask(void* params)
 {
 	int len_temp,len_humi;
 	int temp,humi;
 	
-//	OLED_Init();这里初始化这些应该放到任务创建前解决，在任务中执行初始化很容易打断DHT11的数据处理
-//	OLED_Clear(); 	
-	
 	Data OLEDData;
-	
-//	/*创建并注册OLED队列*/ 如果是这样，在任务里创建、注册队列，那那边DHT11任务先执行,分发数据给队列，
-						//发现OLED队列还没创建，就容易出错，所以最好是：先统一创建队列，再统一创建任务。
-//	OLEDQueueHandle=xQueueCreate(10,sizeof(struct DHT11Data));
-//	RegisterQueue(OLEDQueueHandle);
 	
 	while(1)
 	{	

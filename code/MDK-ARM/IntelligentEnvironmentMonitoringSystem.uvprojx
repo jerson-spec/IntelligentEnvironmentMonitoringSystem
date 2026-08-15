@@ -710,6 +710,21 @@
               <FileType>1</FileType>
               <FilePath>..\Project_Code\My_UART.c</FilePath>
             </File>
+            <File>
+              <FileName>LED_Warning.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Project_Code\LED_Warning.c</FilePath>
+            </File>
+            <File>
+              <FileName>Buzzer_Warning.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Project_Code\Buzzer_Warning.c</FilePath>
+            </File>
+            <File>
+              <FileName>ColorLED_Warning.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Project_Code\ColorLED_Warning.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

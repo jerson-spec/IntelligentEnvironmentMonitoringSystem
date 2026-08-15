@@ -43,5 +43,7 @@ intelligentenvironmentmonitoringsystem\main.o: ../Middlewares/Third_Party/FreeRT
 intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/Driver_OLED.h
 intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/Driver_DHT11.h
 intelligentenvironmentmonitoringsystem\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h
-intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/Warning.h
 intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/My_UART.h
+intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/LED_Warning.h
+intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/Buzzer_Warning.h
+intelligentenvironmentmonitoringsystem\main.o: ../Project_Code/ColorLED_Warning.h
